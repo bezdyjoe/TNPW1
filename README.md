@@ -1,1 +1,1 @@
-# TNPW1---Obec-Brn-nec
+# projekt TNPW1 FIM UHK - Obec Brněnec
