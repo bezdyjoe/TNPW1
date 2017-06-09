@@ -1,0 +1,280 @@
+* {
+   margin:0;                 
+   padding:0; 
+}
+
+#container {
+   max-width:980px;
+   margin: 0 auto;
+   background-color: wheat;
+   
+}
+
+
+body {
+   font-family: Verdana;
+   font-size: 11px; 
+}
+
+/*****HEADER*****/
+header {
+   text-align: center;
+}
+header img {
+   max-width:100%;
+}
+/*****NAV*****/
+h1,h2,h3,h4 {
+   color:#2E4272;
+}
+nav {
+   background-color: #550000;
+   text-align: center;
+   font-size: 14px;
+}
+nav ul {
+   list-style-type: none;
+     
+}
+nav a {
+   text-decoration: none;
+   padding: 5px; 
+   display: block;
+   color: white;
+}
+
+nav a:hover {
+   background-color: #033B62;
+   color:white;
+}
+/*****ASIDE*****/
+aside {
+   float:right;
+   text-align: center;
+   background-color:wheat;
+   border-radius: 10px;
+   /*margin: 10px;*/
+    border: 2px solid #550000;
+    padding: 5px;
+    
+} 
+
+
+aside h3 {
+   margin: 10px;
+   border: 1px solid black;
+   border-radius:5px;
+   background-color: #D46A6A;
+}
+
+aside ul li {
+   padding: 4px;
+}
+
+
+aside img {
+   border: 2px solid black;
+}
+
+aside a {color:black;}
+ table, td, th { border: 1px solid black;  }
+                 
+.frame {width: 200px; height: 200px; border: 1px solid black;}
+/*****SECTION*****/
+
+article ul {list-style-type: disc;
+            padding: 20px;
+}
+
+article ul li {
+   padding: 5px;
+}
+
+section {
+background-color:wheat;
+border: 2px solid #550000;
+border-radius: 10px;
+margin: 4px;
+padding:4px;
+float: left;
+  
+} 
+
+section h1 {
+   text-align: center;
+   border: 1px solid black;
+   border-radius:5px;
+   background-color: #D46A6A;
+   margin: 5px;
+   font-size:18px
+}
+
+section.hl_cast {
+  
+      
+}
+
+section.hl_cast a {
+   text-decoration: none;
+   color: #270000;
+   display: block;
+   margin: 30px;
+   
+   
+}
+
+
+section.hl_cast a:hover {
+   
+   font-size: 14px;                                               
+
+   
+}
+.obal_novinek {
+   border-left: 5px solid #550000;              
+   border-radius: 5px; 
+   padding: 5px; 
+}
+
+
+.samosprava {
+   border: 1px solid black;
+   margin:10px;
+   padding:10px;
+   border-radius: 6px;
+}
+h2.stred { text-align: center;}
+
+.clanky {
+   clear: both;
+   /*float:left */
+   padding: 2px; 
+}
+
+/*****FOOTER*****/
+ footer {
+   clear: both;
+   background-color: #550000;
+   text-align:center;
+   max-width: 100%;
+   color:white;
+}
+
+
+ 
+
+
+
+/*****OSTATNI*****/
+
+ .obrazek_vlevo {
+   float:left;
+   margin-right: 15px;
+}
+
+.clear {
+   clear:both;
+ }
+
+
+
+.plna_sirka {
+   background-color: #FFE6AA; 
+}
+#fotogalerie {
+   text-align: center;
+}
+
+.foto {text-align: center;
+       display: inline-block;
+       margin: 5px;
+       padding: 5px;
+}
+
+h2  {
+   
+   font-family: Arial;
+   font-size: 20px;
+}
+
+ul {
+   list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+.obrazek_nastred {
+   text-align: center;
+   margin: 10px;
+}
+
+.obrazky { 
+   height: 210px; 
+   width: 210px; 
+   margin: auto 
+   }
+.obrazky img { 
+   padding: 5px; 
+   border: 2px solid #eee; 
+   background-color: #550000; }   
+
+ 
+
+
+
+ @media only screen and (max-width: 480px) {
+    .obal_novinek {
+   border-left: 2px solid #550000;              
+   padding: 2px; 
+}
+   .none {
+      display: none;
+      
+   }  
+}
+
+    @media only screen and (min-width: 600px){
+      nav li {
+       display: inline-block;   
+    }
+      nav {text-align: center;
+          font-size: 14px;}
+ }   
+		@media only screen and (min-width: 885px) {
+    
+    body {
+       font-size: 12px;
+    }
+    
+    nav li {
+       display:inline-block;   
+    }
+    nav {text-align: center;
+          font-size: 14px;}
+    /*nav a:hover {color: white;,} */
+    section {
+         width:70%;
+         float:left;
+         margin: 2px;
+         padding:2px;
+        }
+        aside {
+    
+         float:right;
+         margin: 2px;
+         padding:2px;
+        }
+    
+  section.hl_cast a:hover {
+   font-size: 14px;                                               
+   border-bottom: 4px dotted #550000;
+   border-radius: 5px;
+          }
+   section h1{
+      font-size:20px;   
+      }
+}    
+
+		
